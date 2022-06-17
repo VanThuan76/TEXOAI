@@ -1,0 +1,49 @@
+@import "normalize.css";
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@300;500;600;700&display=swap");
+:root {
+  --color-login-body: #e5e5e5;
+  --color-button-login: #9f28f3;
+  --color-white: #fff;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  width: 100%;
+  height: 100vh;
+  font-family: "Manrope", sans-serif;
+  text-rendering: optimizespeed;
+  letter-spacing: 0.1px;
+  background-color: var(--color-login-body);
+}
+a {
+  text-decoration: none;
+}
+button,
+input {
+  border: none;
+  outline: none;
+  background: none;
+}
+button {
+  cursor: pointer;
+}
+span,
+p,
+a {
+  font-size: 1.2rem;
+}
+a {
+  color: #707281;
+  &:hover {
+    color: blue;
+  }
+  &:active {
+    color: red;
+  }
+}

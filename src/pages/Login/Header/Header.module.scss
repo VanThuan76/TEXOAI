@@ -1,0 +1,12 @@
+.top-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 10px;
+  width: 327px;
+  height: 49px;
+  p {
+    font-size: 1.2rem;
+  }
+}
